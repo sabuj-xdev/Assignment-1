@@ -302,3 +302,64 @@ text-align: left;
     border-radius: 24px;
     margin-left:90px;
 }
+/* footer style */
+.Donate{
+    width:1055px;
+    margin:0 auto;
+    padding:10px;
+}
+.Donate-card{
+    display:flex;
+    justify-content: space-around;
+    margin-top:30px;
+}
+.Donate-title{
+color: rgb(14, 14, 14);
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.Donate-description{
+color: rgba(14, 14, 14, 0.7);
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-top:20px;
+}
+.Donate-card-one{
+    width:170px;
+    height:90px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+text-align: center;
+height: 100px;
+line-height: 100px;
+box-shadow: 1px 1px 5px;
+}
+/* input style */
+.Donate-input{
+display:flex;
+justify-content: center;
+}
+.Donate-input .text{
+    width: 100%;
+    max-width: 856px;
+    padding: 12px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+    color: #aaa;
+    margin-top:25px;
+    box-shadow: 1px 1px 5px;
+}
+.Donate-input .text:focus {
+    border-color: #007b5e;
+    color: #333;
+}
