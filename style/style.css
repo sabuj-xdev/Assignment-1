@@ -171,7 +171,7 @@ letter-spacing: 0%;
 /* card style */
 .vision-cards{
     display:flex;
-    gap:90px; 
+    gap:120px; 
    
 }
 .card-one{
