@@ -6,7 +6,7 @@
 }
 body{
     font-family: "Fira Sans", serif;
-    width:1360px;
+    width:1350px;
 }
 nav{
     display:flex;
@@ -112,6 +112,29 @@ border-radius: 8px;
 padding:7px 15px;
 margin-top:18px;
 border:none;
+}
+.input-container{
+    display:flex;
+    overflow: hidden;
+    display: flex;              
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 6px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.input-container button{
+    background-color: #0b6842;
+    color: white;
+    padding: 12px 20px;
+    border: none;               
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 /* banner section style */
 .banner{
@@ -358,8 +381,81 @@ justify-content: center;
     color: #aaa;
     margin-top:25px;
     box-shadow: 1px 1px 5px;
+    margin-bottom:80px;
 }
 .Donate-input .text:focus {
     border-color: #007b5e;
     color: #333;
+}
+.input-container input{
+    flex: 1;                    
+    padding: 12px;
+    border: none;               
+    outline: none;
+    font-size: 16px;
+    color: #777;
+}
+/* news latter style */
+.News-letter{
+    width:1055px;
+    background-color:rgb(198, 228, 214);
+    border-radius:20px;
+    text-align: center;
+    padding:60px;
+    margin:0 auto;
+    /* display:flex; */
+}
+.news-letter-title{
+color: rgb(14, 14, 14);
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+margin-bottom:10px;
+}
+.news-letter-description{
+color: rgba(14, 14, 14, 0.7);
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+width:498px;
+margin:0 auto;
+}
+.spam-description{
+color: rgba(14, 14, 14, 0.7);
+font-size: 13px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+}
+/* last section style */
+.End{
+width:1350px;
+margin-top:50px;
+box-shadow: 0.2px 1px 7px;
+padding: 10px;
+}
+.End .End-title{
+color: rgb(14, 14, 14);
+font-size: 26px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align:center;
+margin-bottom:20px;
+}
+.horizontal-line{
+   width:895px;
+   margin: 0 auto;
+   border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.icon img{
+    padding:10px;
+    
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
 }
