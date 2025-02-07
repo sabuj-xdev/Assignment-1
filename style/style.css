@@ -16,7 +16,7 @@ nav{
     width:1055px;
 }
 /* shared style */
-.bangladesh{
+.bangladesh , .bangladesh-satellite .bangladesh-satellite-title{
 font-size:26px;
 color: rgb(14, 14, 14);
 font-weight: 700;
@@ -213,4 +213,92 @@ border-radius: 16px;
     width: 27.43px;
     height: 54.86px;
     background: rgba(14, 14, 14, 0.3);
+}
+/* recent news style */
+.recent-news .news-title{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+
+}
+.recent-news .news-description , .bangladesh-satellite-description{
+color: rgba(14, 14, 14, 0.7);
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+}
+/* satellite style */
+.recent-news-satellite{
+    width:1055px;
+    margin:0 auto;
+}
+.bangladesh-satellite-content {
+    width:575px;
+    margin-left:35px;
+}
+.bangladesh-satellite-secant-content{
+    width:575px;
+    margin-left:20px;
+}
+
+.bangladesh-satellite-description {
+margin-left:10px;
+}
+.bangladesh-satellite-two .bangladesh-satellite-secand-description {
+color: rgba(14, 14, 14, 0.7);
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+}
+.bangladesh-satellite .satellite{
+    width:290px;
+    height: 230px;
+    border-radius: 24px;
+}
+
+.aljazera , .aljazera-two{
+    width:105px;
+    height:32p;
+}
+.bangladesh-satellite , .bangladesh-satellite-two{
+    width:1055px;
+    display:flex;
+    padding:30px;
+    box-shadow: 0px 0px 10px ;
+    background: rgb(255, 255, 255);
+    border-radius:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+
+.Date-time p ,.bangladesh-satellite-two .date-time p{
+    display: inline;
+    padding:15px 10px;
+    color: rgba(14, 14, 14, 0.7);
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+}
+/* 2nd part  */
+.bangladesh-satellite-secand-title , .bangladesh-satellite-content .bangladesh-satellite-title{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+/*  satellite 2nd image */
+.satellite-secand-image .satellite{
+    width:290px;
+    height: 230px;
+    border-radius: 24px;
+    margin-left:90px;
 }
