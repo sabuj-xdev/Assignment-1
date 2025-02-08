@@ -493,8 +493,8 @@ letter-spacing: 0%;
 .End{
 width:1350px;
 margin-top:50px;
-box-shadow: 0.2px 1px 7px;
 padding: 10px;
+background-color: rgb(255, 255, 255);
 }
 .End .End-title{
 color: rgb(14, 14, 14);
