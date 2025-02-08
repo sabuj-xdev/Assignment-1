@@ -254,7 +254,7 @@ margin-top:30px;
 }
 /* chief-advisor style */
 .banker-text{
-   background-image: url("/assets/quote-bg.png");
+   background-image: url("../assets/quote-bg.png");
    background-repeat: no-repeat;
    background-size: 47px;
 background-position: left top;
