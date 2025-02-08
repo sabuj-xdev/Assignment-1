@@ -7,6 +7,7 @@
 body{
     font-family: "Fira Sans", serif;
     width:1350px;
+    background-color: rgb(245, 245, 245);
 }
 nav{
     display:flex;
@@ -210,15 +211,63 @@ cursor:pointer;
     border:1px solid black;
     color:black;
 }
+.Donate-btn{
+    display: flex;
+    justify-content: center;
+}
+.Donate-btn button{
+color: rgb(255, 255, 255);
+font-size: 13px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+/* border: 1px solid rgba(14, 14, 14, 0.1); */
+border:none;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+padding:10px;
+margin-bottom:30px;
+
+}
+.bangladesh-satellite-btn {
+color: rgb(255, 255, 255);
+font-size: 13px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+border:none;
+border-radius: 8px;
+padding:10px;
+background-color: rgb(237, 71, 71);
+margin-top:30px;
+}
+.bangladesh-satellite-btn:hover{
+    background-color: rgb(0, 106, 80);
+    color:black;
+    transition: 0.7s;
+}
+.Donate-btn button:hover {
+    background-color: rgb(237, 71, 71);
+    transition: 0.7s;
+   border:1px solid black;
+   color:black;
+}
 /* chief-advisor style */
+.banker-text{
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 40px;
+}
 .chief-advisor{
 margin-top:30px;
 padding:30px;
 width:1055px;
-box-shadow: 1px 1px  6px ;
-border: 1px solid rgba(14, 14, 14, 0.15);
+/* border: 1px solid rgba(14, 14, 14, 0.15); */
+border:none;
 border-radius: 16px;
 margin-bottom:20px;
+background-color: rgb(255, 255, 255);
 }
 .chief-advisor p , .vision p{
  color: rgba(14, 14, 14, 0.8);
@@ -302,11 +351,12 @@ letter-spacing: 0%;
     width:1055px;
     display:flex;
     padding:30px;
-    box-shadow: 0px 0px 10px ;
     background: rgb(255, 255, 255);
     border-radius:10px;
     margin-top:20px;
     margin-bottom:20px;
+    border:none;
+    
 
 }
 
@@ -365,16 +415,14 @@ text-align: center;
 margin-top:20px;
 }
 .Donate-card-one{
-    width:170px;
-    height:90px;
-    box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
+ width:170px;
+height:90px;
 border-radius: 16px;
 background: rgb(255, 255, 255);
 text-align: center;
 height: 100px;
 line-height: 100px;
-box-shadow: 1px 1px 5px;
+background-color: rgb(255, 255, 255);
 }
 /* input style */
 .Donate-input{
@@ -386,13 +434,14 @@ justify-content: center;
     max-width: 856px;
     padding: 12px;
     font-size: 13px;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
+    border:none;
     border-radius: 6px;
     text-align: center;
     color: #aaa;
     margin-top:25px;
-    box-shadow: 1px 1px 5px;
-    margin-bottom:80px;
+    /* box-shadow: 1px 1px 5px; */
+    margin-bottom:40px;
 }
 .Donate-input .text:focus {
     border-color: #007b5e;
